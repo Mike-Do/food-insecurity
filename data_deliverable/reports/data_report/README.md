@@ -22,7 +22,7 @@ Area harvested Maximum value: 48178000.0
 Production Minimum value: 0.03
 Production Maximum value: 412262180.0
 
-## For Projected Impact
+## For Projected Impacts
 Note:
 We don’t have to use any of the fields to detect possible duplicate records, by nature of the datasets that we are working with in the first place (they’ve all been cleaned). But if we did have to account for duplicates, we would have to look at the country, crop, and year in conjunction.
 
