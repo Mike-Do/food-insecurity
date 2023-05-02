@@ -97,8 +97,34 @@ At first, we had a questionable coefficient value and a p-value of 0. Upon inves
 8. **Was the data adequate for your analysis? If not, what aspects of the data were problematic and how could you have remedied that?**
 	The data was adequate for analysis. If we had joined our existing datasets on an irrigation dataset, we may have had more accurate results on the relationship between irrigation and crop yield. 
 
+## Hypothesis 3: There is a significant correlation between CO2 ppm and crop yield in the dataset.
+1. **Why did you use a Perason's correlation?**
+	We use Pearson's correlation coefficient as it measures the strength of the relationship between CO2 ppm and crop yield. Our hypothesis assumes that the correlation is linear; hence, this test is a good match.
 
+2. **Which other test did you consider?**
+	We could have used a **one-sample t-test**. In this case, we would be comparing the mean CO2 ppm of the countries in the dataset to a known crop yield mean. Alternatively, we could have used a Spearman correlation, a non-parametric test that does not assume the relationship between the two variables is linear. However, our hypothesis investigates a linear relationship, so we did not choose this alternative test.
+	
+3. **What metric(s) did you use to measure success or failure, and why did you use it?** 
+	Pearson's correlation coefficient measures the linear relationship between two variables. It ranges from -1 to 1, where -1 indicates a perfect negative correlation, 0 shows no correlation, and 1 indicates a perfect positive correlation. We used this to investigate the linear relationship between crop yield and CO2 ppm. We also used the p-value to ensure our findings were significant.
 
+4. **What challenges did you face evaluating the model? Did you have to clean or restructure your data?** 
+	Our data was not initially clean, so we removed rows with the same values for crop yield and CO2 ppm columns. In this case, we also removed null values within these two columns. 
 
+5. **What is your interpretation of the results? Do you accept or deny the hypothesis, or are you satisfied with your prediction accuracy?** 
 
+	My interpretation of the results is that there is no significant correlation between CO2 ppm and crop yield. We do not accept the hypothesis and are unsatisfied with the prediction accuracy.
+	
+	The results demonstrate a weak negative correlation between CO2 ppm and crop yield, with a Pearson correlation of -0.032. The p-value of 0.166 is greater than 0.05, meaning our result is not statistically significant. Therefore, we fail to reject the null hypothesis, indicating no significant correlation between CO2 ppm and crop yield in the dataset.
+	
+	The prediction accuracy could be better since the p-value exceeds the standard threshold of 0.05.
 
+6.  **Did you find the results corresponded with your initial belief in the data? If yes/no, why do you think this was the case?**
+	I did not find the results corresponding to my initial belief in the data. We initially believed there would be a positive correlation between CO2 ppm and crop yield. Atmospheric CO2 increases the rate of photosynthesis required to produce sugars for growth while reducing the amount of water crops lose to transpiration. 
+	
+	  However, the results showed no significant correlation between the two variables, such as reduced nitrogen content in grains and reduced plant protein production. Other factors affect crop yield, such as the amount of water and nutrients available to the plants.
+
+7. **Do you believe the tools for analysis that you chose were appropriate? If yes/no, why or what method could have been used?**
+	The tools for analysis chosen were appropriate as we sought to find a linear relationship between the two variables.
+
+8. **Was the data adequate for your analysis? If not, what aspects of the data were problematic, and how could you have remedied that?**
+	The data were adequate for analysis. Besides the initial cleaning, we could have incorporated data on the influences of CO2 on crops, such as the amount of sugar the crops generated. Further, we could have used more advanced statistical tests (e.g., Spearman correlation) that can account for non-linear relationships and interactions between variables.
