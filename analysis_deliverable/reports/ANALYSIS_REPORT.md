@@ -115,9 +115,9 @@ At first, we had a questionable coefficient value and a p-value of 0. Upon inves
 	The prediction accuracy could be better since the p-value exceeds the standard threshold of 0.05.
 
 6.  **Did you find the results corresponded with your initial belief in the data? If yes/no, why do you think this was the case?**
-	I did not find the results corresponding to my initial belief in the data. We initially believed there would be a positive correlation between CO2 ppm and crop yield. Atmospheric CO2 increases the rate of photosynthesis required to produce sugars for growth while reducing the amount of water crops lose to transpiration. 
+	We did not find the results corresponding to my initial belief in the data. We initially believed there would be a positive correlation between CO2 ppm and crop yield. Atmospheric CO2 increases the rate of photosynthesis required to produce sugars for growth while reducing the amount of water crops lose to transpiration. 
 	
-	  However, the results showed no significant correlation between the two variables, such as reduced nitrogen content in grains and reduced plant protein production. Other factors affect crop yield, such as the amount of water and nutrients available to the plants.
+	  However, the results showed no significant correlation between the two variables. This could be due to having reduced nitrogen content in grains, which results in reduced CO2 emmissions and plant protein production. Also, other factors may affect crop yield more, such as the amount of water and nutrients available to the plants.
 
 7. **Do you believe the tools for analysis that you chose were appropriate? If yes/no, why or what method could have been used?**
 	The tools for analysis chosen were appropriate as we sought to find a linear relationship between the two variables.
